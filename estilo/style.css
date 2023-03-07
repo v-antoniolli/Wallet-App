@@ -68,6 +68,7 @@ main button{
   border-radius: 10px;
   color: white;
   background-color: #5936cd;
+  margin-left: 60px;
 }
 main button:hover{
   box-shadow: 3px 3px 3px black;
