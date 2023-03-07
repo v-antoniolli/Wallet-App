@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+body{
+  width: 400px;
+  background-color: #5936cd;
+  
+}
+main{
+  position: absolute;
+  width: 80vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  top: 23%;
+  left: 10%;
+  align-items: center;
+  border: 3px solid black;
+  background-color: rgb(247, 254, 255);
+  border-radius: 30px;
+}
+main img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+main div h1{
+  font-size: 1.5em;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+main div p{
+  margin-top: 5px;
+  text-align: justify;
+  font-size: 0.8em;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main div#second{
+  display: flex;
+  flex-direction: column;
+  width: 68vw;
+  margin-top: 20px;
+}
+main div#second label{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+main div#second input{
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #5936cd;
+  background-color: #5936cd2b;
+}
+
+main button{
+  margin-top: 20px;
+  padding: 3px;
+  width: 40vw;
+  border-radius: 10px;
+  color: white;
+  background-color: #5936cd;
+}
+main button:hover{
+  box-shadow: 3px 3px 3px black;
+}
+main a{
+  color: black;
+  margin-top: 70px;
+  font-size: 0.8em;
+}
