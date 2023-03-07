@@ -67,7 +67,8 @@ main button{
   border-radius: 10px;
   color: white;
   background-color: #5936cd;
-  margin-left: 80px;
+  position: relative;
+  left: 23%;
 }
 main button:hover{
   box-shadow: 3px 3px 3px black;
