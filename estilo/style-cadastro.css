@@ -57,11 +57,12 @@ main div#second label{
   margin-left: 22px;
 }
 main div#second input{
-  padding: 5px;
+  padding: 8px;
   border-radius: 10px;
   border-color: #5936cd;
   background-color: #5936cd2b;
   margin-left: 40px;
+  margin-bottom: 8px;
 }
 main button{
   margin-top: 20px;
@@ -78,7 +79,7 @@ main button:hover{
 }
 main a{
   color: black;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 0.8em;
  display: flex;
  flex-direction: row;
