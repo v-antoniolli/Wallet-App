@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
 }
+button{
+  cursor: pointer;
+}
 body{
   width: 400px;
   background-color: #5936cd;
