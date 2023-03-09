@@ -7,7 +7,7 @@
   <title>Cadastro</title>
   <link rel="stylesheet" href="estilo/style-cadastro.css">
   <link rel="shortcut icon" href="imagens/carteira.jpg" type="image/x-icon">
-  <script src="script/index.js"></script>
+  <script src="script/cadastro.js"></script>
 </head>
 <body>
   <main>
@@ -15,15 +15,18 @@
     <div>
       <h1>Novo Cadastro</h1>
       <p>Insira seu nome e seu e-mail para ter acesso a Wallet app e gerenciar suas finanças! </p>
-      <div id="second">
-        <label for="i-nome">Nome</label>
-        <input type="text" name="nome" id="i-nome" required placeholder="Digite seu nome ">
-        <label for="i-email">E-mail</label>
-        <input type="email" name="email" id="i-email" required placeholder="Digite seu email aqui" autocomplete="email">
-      </div>
-      <button  type="submit">Cadastrar</button><br>
-      <a href="index.html">Já possui uma conta? Faça seu login!</a>
+      <form id="form-register">
+        <div id="second">
+          <label for="i-nome">Nome</label>
+          <input type="text" name="nome" id="i-nome" required placeholder="Digite seu nome ">
+          <label for="i-email">E-mail</label>
+          <input type="email" name="email" id="i-email" required placeholder="Digite seu email aqui" autocomplete="email">
+        </div>
+        <button  type="submit">Cadastrar</button><br>
+        <a href="index.html">Já possui uma conta? Faça seu login!</a>
+      </form>
     </div>
+      
   </main>
 </body>
 </html>
