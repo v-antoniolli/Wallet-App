@@ -8,13 +8,21 @@ const validateUser = async (email) => {
   }
 }
 
-const onClickLogin = () => {
+const onClickLogin = async () => {
   const email = document.getElementById("input-email").value;
   if (email.length < 5 || !email.includes("@")) {
     alert("email invalido. minimo de 5 letras e 1 @")
     return;
   } 
-
-  localStorage.setItem("@walletApp:email", email);
+  const result = await validateUser(email)
+  console.log(result)
+  if (result.error) {
+    alert("Falha ao validar e-mail.")
+    return
+  }
+  
+  localStorage.setItem("@walletApp:userEmail", result.email);
+  localStorage.setItem("@WalletApp:userName", result.name)
+  localStorage.setItem("@walletApp:userId", result.id)
   window.open("home.html", "_self");
 }
